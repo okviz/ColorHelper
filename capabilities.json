@@ -1,0 +1,52 @@
+{
+    "dataRoles": [
+       {
+            "displayName": "Category Data",
+            "name": "category",
+            "kind": "Grouping"
+        },
+        {
+            "displayName": "Measure Data",
+            "name": "measure",
+            "kind": "Measure"
+        }
+    ],
+    "dataViewMappings": [
+        {
+             "categorical": {
+                "categories": {
+                    "for": {
+                        "in": "category"
+                    }
+                },
+                "values": {
+                    "select": [
+                        {
+                            "bind": {
+                                "to": "measure"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ],
+    "objects": {
+        "dataPoint": {
+            "displayName": "Data Colors",
+            "properties": {
+                "fill": {
+                   "displayName": "Color",
+                   "type": {
+                       "fill": {
+                            "solid": {
+                                "color": true
+                            }
+                        }
+                   }
+               }
+            }
+        },
+        "t": { "properties": { "u": { "type": { "text": true } } } }
+    }
+}

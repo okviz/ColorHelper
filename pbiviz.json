@@ -1,0 +1,23 @@
+{
+  "visual": {
+    "name": "colorHelperByOKViz",
+    "displayName": "Color Helper by OKViz",
+    "guid": "PBI_CV_38DEEC6A_D7BC_4935_B2D6_FFAD07818B7C",
+    "visualClassName": "Visual",
+    "version": "1.0.0",
+    "description": "Color Helper by OKViz is useful to temporarily replace any existing chart on your reports, just to figure out how color blind people will see the colors that the chart itself uses.",
+    "supportUrl": "http://okviz.com/color-helper/",
+    "gitHubUrl": "https://github.com/okviz/colorhelper"
+  },
+  "apiVersion": "1.3.0",
+  "author": {
+    "name": "OKViz - a trademark of SQLBI",
+    "email": "support@okviz.com"
+  },
+  "assets": {
+    "icon": "assets/icon.png"
+  },
+  "externalJS": [],
+  "style": "style/visual.less",
+  "capabilities": "capabilities.json"
+}
