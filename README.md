@@ -4,7 +4,7 @@ Color Helper by OKViz is useful to temporarily replace any existing chart on you
 
 ![alt tag](screenshot.png)
 
-Find out more on http://okviz.com/color-helper/
+Find out more on https://okviz.com/color-helper/
 
 
 ### Copyrights
